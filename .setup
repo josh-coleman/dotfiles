@@ -1,0 +1,5 @@
+# Link Zsh config
+ln -sf ~/dotfiles/.zshrc ~/.zshrc
+
+# Reload zsh config
+source ~/.zshrc
