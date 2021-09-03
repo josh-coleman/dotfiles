@@ -12,7 +12,7 @@ then
   if [[ "$SPIN_REPO_SOURCE_PATH" = "/src/github.com/shopify/web" ]]
   then
     echo "Dotfile executing updates for web"
-    cd /src/github.com/shopify/web && git pull && update && restart
+    cd /src/github.com/shopify/web && restart
   fi
   
   # Shopify Chat
