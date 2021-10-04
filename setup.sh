@@ -5,7 +5,7 @@ then
   if [[ "$SPIN_REPO_SOURCE_PATH" = "/src/github.com/shopify/shopify" ]]
   then
     echo "Dotfile executing updates for core"
-    cd /src/github.com/shopify/shopify && bin/rake dev:create_apps && restart
+    cd /src/github.com/shopify/shopify && API_KEY=development-shopify-chat-key && bin/rake dev:create_apps && restart
   fi
   
   # Web
